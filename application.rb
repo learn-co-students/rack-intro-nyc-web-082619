@@ -1,10 +1,9 @@
-class Application
+class Application 
 
   def call(env)
     resp = Rack::Response.new
-    resp.write "Hello, World"
+    resp.write "eat my ass"
     resp.finish
   end
 
 end
-
